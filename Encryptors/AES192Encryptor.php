@@ -10,7 +10,7 @@ namespace Ambta\DoctrineEncryptBundle\Encryptors;
 class AES192Encryptor implements EncryptorInterface
 {
     const METHOD_NAME = 'AES-192';
-    const ENCRYPT_MODE = 'ECB';
+    const ENCRYPT_MODE = 'CBC';
 
     /**
      * @var string
